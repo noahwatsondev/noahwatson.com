@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
 export const metadata: Metadata = {
   title: "Noah's Portfolio",
-  description: 'Lead Software Engineer specializing in React, Ruby on Rails, and UI/UX.',
+  description: 'Tech professional, spanning roles as Lead Software Engineer, Solutions Engineer, Product Manager, and Designer, specializing in React, Ruby on Rails, and UI/UX.',
 };
 
 export default function RootLayout({

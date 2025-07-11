@@ -11,7 +11,8 @@ export default function Home() {
           Noah Watson
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-2">
-          Lead Software Engineer | React | Ruby on Rails | UI/UX Leader
+          <div>Tech Professional</div>
+          <div>Lead Software Engineer | Solutions Engineer | Product Manager | Designer</div>
         </p>
         <p className="max-w-3xl mx-auto text-muted-foreground">
           Driven Lead Software Engineer specializing in React and Ruby on Rails, passionate about building scalable, user-centric products and empowering development teams. Eager to contribute to mission-driven organizations.
@@ -24,9 +25,9 @@ export default function Home() {
           <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <CardHeader>
               <CardTitle className="text-2xl">
-                Lead UI Engineer | <Link href="https://sourceday.com" target="_blank" rel="noopener noreferrer">SourceDay</Link>
+                Solutions Engineer / Lead UI Engineer / Product Manager | <Link href="https://sourceday.com" target="_blank" rel="noopener noreferrer">SourceDay</Link>
               </CardTitle>
-              <CardDescription>Modernizing a supply chain platform with React</CardDescription>
+              <CardDescription>Modernizing a supply chain</CardDescription>
             </CardHeader>
             <CardContent className="grid gap-6">
               <Image
@@ -94,45 +95,6 @@ export default function Home() {
               <Badge variant="secondary">Figma</Badge>
             </CardFooter>
           </Card> */}
-
-          <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <CardHeader>
-              <CardTitle className="text-2xl">
-                Affiliate Marketing Platform | <Link href="https://offerbae.com" target="_blank" rel="noopener noreferrer">OfferBae</Link>
-              </CardTitle>
-              <CardDescription>A mobile-first affiliate site inspired by RetailMeNot, built with Next.js and Rakuten APIs.</CardDescription>
-            </CardHeader>
-            <CardContent className="grid gap-6">
-               <Image
-                src="/images/featured/offerbae.png"
-                alt="OfferBae.com mobile and desktop views"
-                width={1200}
-                height={600}
-                className="rounded-lg border"
-                data-ai-hint="ecommerce website"
-              />
-              <div>
-                <h3 className="font-semibold text-lg mb-2">Problem & Challenge</h3>
-                <p className="text-muted-foreground mb-4">
-                  The goal was to create a performant, mobile-first platform that aggregates affiliate offers from the Rakuten network, providing users with a seamless experience to discover deals and drive sales for partner advertisers.
-                </p>
-                <h3 className="font-semibold text-lg mb-2">My Contributions</h3>
-                <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                  <li>Architected and developed the entire frontend using Next.js for server-side rendering and a fast user experience.</li>
-                  <li>Integrated with Rakuten's affiliate APIs to fetch and display dynamic offer content.</li>
-                  <li>Designed and implemented a mobile-first, responsive UI to maximize user engagement on all devices.</li>
-                  <li>Focused on SEO and performance optimization to attract organic traffic and ensure quick load times.</li>
-                </ul>
-              </div>
-            </CardContent>
-            <CardFooter className="flex flex-wrap gap-2">
-              <Badge variant="secondary">Next.js</Badge>
-              <Badge variant="secondary">React</Badge>
-              <Badge variant="secondary">TypeScript</Badge>
-              <Badge variant="secondary">Tailwind CSS</Badge>
-              <Badge variant="secondary">Rakuten API</Badge>
-            </CardFooter>
-          </Card>
 
           <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <CardHeader>
@@ -235,6 +197,45 @@ export default function Home() {
               <Badge variant="secondary">A/B Testing</Badge>
               <Badge variant="secondary">Performance Optimization</Badge>
               <Badge variant="secondary">Agile</Badge>
+            </CardFooter>
+          </Card>
+
+          <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <CardHeader>
+              <CardTitle className="text-2xl">
+                Affiliate Marketing Platform | <Link href="https://offerbae.com" target="_blank" rel="noopener noreferrer">OfferBae</Link>
+              </CardTitle>
+              <CardDescription>A mobile-first affiliate site inspired by RetailMeNot, built with Next.js and Rakuten APIs.</CardDescription>
+            </CardHeader>
+            <CardContent className="grid gap-6">
+               <Image
+                src="/images/featured/offerbae.png"
+                alt="OfferBae.com mobile and desktop views"
+                width={1200}
+                height={600}
+                className="rounded-lg border"
+                data-ai-hint="ecommerce website"
+              />
+              <div>
+                <h3 className="font-semibold text-lg mb-2">Problem & Challenge</h3>
+                <p className="text-muted-foreground mb-4">
+                  The goal was to create a performant, mobile-first platform that aggregates affiliate offers from the Rakuten network, providing users with a seamless experience to discover deals and drive sales for partner advertisers.
+                </p>
+                <h3 className="font-semibold text-lg mb-2">My Contributions</h3>
+                <ul className="list-disc list-inside text-muted-foreground space-y-2">
+                  <li>Architected and developed the entire frontend using Next.js for server-side rendering and a fast user experience.</li>
+                  <li>Integrated with Rakuten's affiliate APIs to fetch and display dynamic offer content.</li>
+                  <li>Designed and implemented a mobile-first, responsive UI to maximize user engagement on all devices.</li>
+                  <li>Focused on SEO and performance optimization to attract organic traffic and ensure quick load times.</li>
+                </ul>
+              </div>
+            </CardContent>
+            <CardFooter className="flex flex-wrap gap-2">
+              <Badge variant="secondary">Next.js</Badge>
+              <Badge variant="secondary">React</Badge>
+              <Badge variant="secondary">TypeScript</Badge>
+              <Badge variant="secondary">Tailwind CSS</Badge>
+              <Badge variant="secondary">Rakuten API</Badge>
             </CardFooter>
           </Card>
 
