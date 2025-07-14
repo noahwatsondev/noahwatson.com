@@ -11,11 +11,13 @@ export default function Home() {
           Noah Watson
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-2">
-          <div>Tech Professional</div>
-          <div>Lead Software Engineer | Solutions Engineer | Product Manager | Designer</div>
+          <div>Tech Sales Professional</div>
+          <div>Solutions Engineer</div>
         </p>
         <p className="max-w-3xl mx-auto text-muted-foreground">
-          Driven Lead Software Engineer specializing in React and Ruby on Rails, passionate about building scalable, user-centric products and empowering development teams. Eager to contribute to mission-driven organizations.
+          <div>Solutions Engineer with 8 years technical customer facing experience implementing Supply Chain technology solutions for Enterprise and Mid-market companies in the Manufacturing and Distribution sectors.</div>
+          <div>Consulted (pre-sale), architected (post-sale), and continuously supported full SaaS integrations lifecycles for annual contracts ranging between $100,000 and $2 million, in collaboration with client team sizes from 2 to 50 people.</div>
+          <div>Core competencies include technical solution design, value-driven discovery, strong communication and persuasive technical storytelling, proof of concept (PoC) development, integration architecture, extensive cross-functional collaboration, and strategic sales cycle navigation.</div>
         </p>
       </section>
 
