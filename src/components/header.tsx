@@ -18,7 +18,7 @@ export default function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-3 font-bold text-lg">
           <Avatar className="h-8 w-8">
-            <AvatarImage src="/images/android-chrome-512x512" alt="Noah Watson" />
+            <AvatarImage src="/images/android-chrome-512x512.png" alt="Noah Watson" />
             <AvatarFallback>NW</AvatarFallback>
           </Avatar>
           <span>Noah Watson</span>
