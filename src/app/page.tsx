@@ -6,18 +6,36 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="container mx-auto max-w-5xl px-4 py-8 md:py-16">
-      <section className="text-center mb-16 md:mb-24">
-        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-foreground mb-4">
-          Noah Watson
-        </h1>
-        <p className="text-xl md:text-2xl text-muted-foreground mb-2">
-          <div>Tech Sales Professional</div>
-          <div>Solutions Engineer</div>
+
+      <section className="flex flex-col sm:flex-row items-center gap-8 mb-12">
+        <Avatar className="h-32 w-32">
+          <AvatarImage src="/images/nw.jpg" alt="Noah's profile picture" data-ai-hint="professional headshot" />
+          <AvatarFallback>N</AvatarFallback>
+        </Avatar>
+        <div className="text-center sm:text-left">
+          <h1 className="text-4xl font-bold mb-2">About Me</h1>
+          <p className="text-muted-foreground">
+            A little more about my journey and what drives me.
+          </p>
+        </div>
+      </section>
+      <p className="text-xl md:text-2xl text-muted-foreground mb-2">
+        <div>Tech Sales Professional</div>
+        <div>Solutions Engineer / Software Engineer / UI/UX Designer</div>
+      </p>
+
+      <section className="space-y-6 text-foreground/90">
+        <p>
+          Solutions Engineer with 8 years technical customer facing experience implementing Supply Chain technology solutions for Enterprise and Mid-market companies in the Manufacturing and Distribution sectors.
         </p>
-        <p className="max-w-3xl mx-auto text-muted-foreground">
-          <div>Solutions Engineer with 8 years technical customer facing experience implementing Supply Chain technology solutions for Enterprise and Mid-market companies in the Manufacturing and Distribution sectors.</div>
-          <div>Consulted (pre-sale), architected (post-sale), and continuously supported full SaaS integrations lifecycles for annual contracts ranging between $100,000 and $2 million, in collaboration with client team sizes from 2 to 50 people.</div>
-          <div>Core competencies include technical solution design, value-driven discovery, strong communication and persuasive technical storytelling, proof of concept (PoC) development, integration architecture, extensive cross-functional collaboration, and strategic sales cycle navigation.</div>
+        <p>
+          Consulted (pre-sale), architected (post-sale), and continuously supported full SaaS integrations lifecycles for annual contracts ranging between $100,000 and $2 million, in collaboration with client team sizes from 2 to 50 people.
+        </p>
+        <p>
+          Core competencies include technical solution design, value-driven discovery, strong communication and persuasive technical storytelling, proof of concept (PoC) development, integration architecture, extensive cross-functional collaboration, and strategic sales cycle navigation.
+        </p>
+        <p>
+          When I'm not coding, I enjoy building AI Agents, reading about Quantum Physics, and exploring new technologies.
         </p>
       </section>
 
