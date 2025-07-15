@@ -40,7 +40,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section>
+      <section className="mt-6">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 md:mb-12 text-center">Featured Projects</h2>
         <div className="grid gap-12">
           <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
